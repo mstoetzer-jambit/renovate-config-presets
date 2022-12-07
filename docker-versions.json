@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchPackageNames": ["kubernetesui/dashboard"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/kubernetes/dashboard"
+    }
+  ]
+}
