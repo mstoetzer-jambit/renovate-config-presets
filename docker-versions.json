@@ -5,6 +5,16 @@
       "matchPackageNames": ["kubernetesui/dashboard"],
       "matchDatasources": ["docker"],
       "sourceUrl": "https://github.com/kubernetes/dashboard"
+    },
+    {
+      "matchPackageNames": ["registry.k8s.io/metrics-server/metrics-server"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/kubernetes-sigs/metrics-server"
+    },
+    {
+      "matchPackageNames": ["public.ecr.aws/aws-ec2/aws-node-termination-handler"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/aws/aws-node-termination-handler/"
     }
   ]
 }
