@@ -5,6 +5,11 @@
       "matchPackageNames": ["fluent-operator"],
       "matchDatasources": ["helm"],
       "sourceUrl": "https://github.com/fluent/fluent-operator"
+    },
+    {
+      "matchPackageNames": ["jaegertracing/jaeger"],
+      "matchDatasources": ["helm"],
+      "sourceUrl": "https://github.com/jaegertracing/helm-charts"
     }
   ]
 }
