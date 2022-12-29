@@ -10,6 +10,11 @@
       "matchPackageNames": ["jaegertracing/jaeger"],
       "matchDatasources": ["helm"],
       "sourceUrl": "https://github.com/jaegertracing/helm-charts"
+    },
+    {
+      "matchPackageNames": ["grafana/grafana"],
+      "matchDatasources": ["helm"],
+      "sourceUrl": "https://github.com/grafana/helm-charts"
     }
   ]
 }
