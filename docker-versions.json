@@ -7,6 +7,16 @@
       "sourceUrl": "https://github.com/kubernetes/dashboard"
     },
     {
+      "matchPackageNames": ["kubernetesui/metrics-scraper"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/kubernetes-sigs/dashboard-metrics-scraper"
+    },
+    {
+      "matchPackageNames": ["k8s.gcr.io/descheduler/descheduler"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/kubernetes-sigs/descheduler"
+    },
+    {
       "matchPackageNames": ["registry.k8s.io/metrics-server/metrics-server"],
       "matchDatasources": ["docker"],
       "sourceUrl": "https://github.com/kubernetes-sigs/metrics-server"
@@ -15,6 +25,36 @@
       "matchPackageNames": ["public.ecr.aws/aws-ec2/aws-node-termination-handler"],
       "matchDatasources": ["docker"],
       "sourceUrl": "https://github.com/aws/aws-node-termination-handler/"
+    },
+    {
+      "matchPackageNames": ["nginx"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/nginxinc/docker-nginx"
+    },
+    {
+      "matchPackageNames": ["hashicorp/vault"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/hashicorp/vault"
+    },
+    {
+      "matchPackageNames": ["hashicorp/packer"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/hashicorp/packer"
+    },
+    {
+      "matchPackageNames": ["telegraf"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/influxdata/telegraf"
+    },
+    {
+      "matchPackageNames": ["grafana/grafana"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/grafana/grafana"
+    },
+    {
+      "matchPackageNames": ["prometheus/prometheus"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/prometheus/prometheus"
     }
   ]
 }
