@@ -52,12 +52,15 @@
       "sourceUrl": "https://github.com/influxdata/telegraf"
     },
     {
-      "matchPackageNames": ["grafana/grafana"],
+      "matchPackagePatterns": ["grafana/grafana"],
       "matchDatasources": ["docker"],
       "sourceUrl": "https://github.com/grafana/grafana"
     },
     {
-      "matchPackageNames": ["prometheus/prometheus"],
+      "matchPackageNames": [
+        "prometheus/prometheus",
+        "quay.io/prometheus/prometheus"
+      ],
       "matchDatasources": ["docker"],
       "sourceUrl": "https://github.com/prometheus/prometheus"
     }
