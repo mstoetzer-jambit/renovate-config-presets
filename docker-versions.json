@@ -2,6 +2,11 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
+      "matchPackageNames": ["registry.k8s.io/external-dns/external-dns"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/kubernetes-sigs/external-dns"
+    },
+    {
       "matchPackageNames": ["kubernetesui/dashboard"],
       "matchDatasources": ["docker"],
       "sourceUrl": "https://github.com/kubernetes/dashboard"
