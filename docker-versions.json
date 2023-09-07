@@ -37,17 +37,22 @@
       "sourceUrl": "https://github.com/nginxinc/docker-nginx"
     },
     {
-      "matchPackageNames": ["hashicorp/vault"],
+      "matchPackagePatterns": ["nginxinc/nginx-unprivileged"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/nginxinc/docker-nginx-unprivileged"
+    },
+    {
+      "matchPackagePatterns": ["hashicorp/vault"],
       "matchDatasources": ["docker"],
       "sourceUrl": "https://github.com/hashicorp/vault"
     },
     {
-      "matchPackageNames": ["hashicorp/packer"],
+      "matchPackagePatterns": ["hashicorp/packer"],
       "matchDatasources": ["docker"],
       "sourceUrl": "https://github.com/hashicorp/packer"
     },
     {
-      "matchPackageNames": ["telegraf"],
+      "matchPackagePatterns": ["telegraf"],
       "matchDatasources": ["docker"],
       "sourceUrl": "https://github.com/influxdata/telegraf"
     },
@@ -57,10 +62,7 @@
       "sourceUrl": "https://github.com/grafana/grafana"
     },
     {
-      "matchPackageNames": [
-        "prometheus/prometheus",
-        "quay.io/prometheus/prometheus"
-      ],
+      "matchPackagePatterns": ["prometheus/prometheus"],
       "matchDatasources": ["docker"],
       "sourceUrl": "https://github.com/prometheus/prometheus"
     }
