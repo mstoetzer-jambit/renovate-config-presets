@@ -65,6 +65,11 @@
       "matchPackagePatterns": ["prometheus/prometheus"],
       "matchDatasources": ["docker"],
       "sourceUrl": "https://github.com/prometheus/prometheus"
+    },
+    {
+      "matchPackagePatterns": ["gitlab/gitlab-ce"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/CHANGELOG.md"
     }
   ]
 }
