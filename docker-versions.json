@@ -69,7 +69,7 @@
     {
       "matchPackagePatterns": ["gitlab/gitlab-ce"],
       "matchDatasources": ["docker"],
-      "sourceUrl": "https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/CHANGELOG.md"
+      "sourceUrl": "https://gitlab.com/gitlab-org/gitlab-foss"
     }
   ]
 }
