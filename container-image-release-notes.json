@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchPackageNames": ["sonatype/nexus3"],
+      "matchDatasources": ["docker"],
+      "sourceUrl": "https://github.com/sonatype/nexus-public"
+    }
+  ]
+}
